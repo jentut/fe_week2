@@ -1,0 +1,115 @@
+/*--Put fonts here*/
+.tilt-warp {
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+ }
+
+ .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ .antonio {
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Styling different classes*/
+
+.header{
+    background-color: #EEE9DA;
+    Padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*styles the top navigation bar from w3schools example*/
+.topnav{
+    overflow: hidden;
+    background-color: #694E4e;
+    padding: 15px;
+    color: #95E1D3;
+}
+/*styles the navigation LINKS-from W3schools example*/
+.topnav a {
+
+    color:beige;
+    margin-inline:0.5rem;
+
+}
+/*Changes the color on hover-from w3schools example*/
+.topnav a:hover{
+    background-color: #C1A3A3;
+    color: #694E4e;
+}
+.center-nav {
+    display: flex;
+    justify-content: center;
+      
+}
+.flex-back{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 50%
+}
+.hero {
+    margin-top:0;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.title-max{
+    
+    max-width: fit-content;
+}
+.hero-col{
+    
+    min-width: 350px;
+}
+
+/*Styling the individual tags on the pages*/
+
+body{
+    background-color: #94B49F;
+    margin: 1rem ;
+    
+}
+
+h1 {
+    font-family: "Tilt Warp";
+    font-size: 2.5em;
+    color:#694E4e;
+ }
+
+p  {
+    font-family: "Roboto";
+    font-size: 1.25em;
+ }
+
+ h3, h5, h3, h4, h2{
+    font-family: "Antonio";
+    Font-size: 2em;
+    color: #BDCDD6;
+ }
+
+ table{
+    font-family: "Roboto";
+ }
+
+ /*a{
+    color:#694E4e;
+ }*/
+
+ img{
+    border-radius: 75%
+ }
